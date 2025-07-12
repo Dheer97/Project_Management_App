@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-
+import logging
+from logging.handlers import RotatingFileHandler
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,6 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-#jfn244m!c!is)-1tkpei820juw$sm8&gn_i70irz2_b!dp%ky'
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE=False
+SESSION_COOKIE_AGE=30*30
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'widget_tweaks',
     'users',
+    'project_flow',
+
 ]
 
 MIDDLEWARE = [
@@ -55,7 +63,7 @@ ROOT_URLCONF = 'project_management_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -111,6 +119,10 @@ USE_I18N = True
 
 USE_TZ = True
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
@@ -121,3 +133,68 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL='users.User'
+
+LOG_FORMAT = '%(asctime)s | %(levelname)s | %(message)s'
+LOG_FILE_NAME = 'app'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'default': {
+            'format': LOG_FORMAT,
+        },
+        'verbose': {
+            'format': '%(asctime)s | %(levelname)s | %(message)s | %(name)s | %(funcName)s | %(lineno)d',
+        }
+    },
+    'handlers': {
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'default',
+        },
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': f'{LOG_FILE_NAME}.log',
+            'maxBytes': 100 * 1024 * 1024,
+            'backupCount': 3,
+            'formatter': 'default',
+        },
+        'debug_file': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': f'{LOG_FILE_NAME}-debug.log',
+            'maxBytes': 100 * 1024 * 1024,
+            'backupCount': 3,
+            'formatter': 'default',
+        },
+        'error_file': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': f'{LOG_FILE_NAME}-error.log',
+            'maxBytes': 100 * 1024 * 1024,
+            'backupCount': 3,
+            'formatter': 'default',
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'django.request': {
+            'handlers': ['error_file'],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        LOG_FILE_NAME: {
+            'handlers': ['console', 'file', 'debug_file'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+    }
+}
