@@ -1,13 +1,77 @@
 {% extends 'users/base.html' %} {% block content %}
-<h2>Projects</h2>
-<ul>
-	{% for project in projects %}
-	<li>
-		<a href="{% url 'project_detail' project.id %}">{{ project.title }}</a> ({{
-		project.status }})
-	</li>
-	{% empty %}
-	<li>No projects found.</li>
-	{% endfor %}
-</ul>
+
+<div class="card mx-auto" style="width: 76rem;">
+    <div class="card-body">
+        <h5 class="card-title mb-3">All Projects</h5>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Project ID</th>
+                    <th scope="col">Project Name</th>
+					<th scope="col">Status</th>
+					<th scope="col">Priority</th>
+                    <th scope="col">Created On</th>
+                    <th scope="col">Action</th>
+                    
+                    
+
+                </tr>
+            </thead>
+            <tbody>
+                {% comment %} {% for ticket in tickets %} {% endcomment %}
+				{% for project in projects %}
+                <tr>
+                    <td><small>{{ project.id }}</small></td>
+                    <td><small>{{ project.title }}</small></td>
+					
+					{% if project.status == 'todo' %}
+						<td><span class="badge bg-primary">To be started</span></td>
+					{% elif project.status == 'work_in_progress' %}
+						<td><span class="badge bg-warning">Work In Progress</span></td>
+					{% elif project.status == 'complete' %}
+						<td><span class="badge bg-success">Complete</span></td>
+					{% elif project.status == 'on_hold' %}
+						<td><span class="badge bg-secondary">On Hold</span></td>
+					{% endif %}
+
+					{% if project.priority == 'low' %}
+						<td><span class="badge bg-secondary">Low</span></td>
+					{% elif project.priority == 'medium' %}
+						<td><span class="badge bg-warning">Medium</span></td>
+					{% elif project.priority == 'high' %}
+						<td><span class="badge bg-danger">High</span></td>
+					{% endif %}
+
+
+
+
+					<td><small>{{ project.start_date }}</small></td>
+
+
+                    
+                    {% comment %} {% if ticket.ticket_status == 'Active' %}
+                    <td><span class="badge bg-success">Active</span></td>
+                    {% elif ticket.ticket_status == 'Pending' %}
+                    <td><span class="badge bg-warning">Pending</span></td>
+                    {% elif ticket.ticket_status == 'Completed' %}
+                    <td><span class="badge bg-danger">Completed</span></td>
+                    {% endif %} {% endcomment %}
+
+                    <td><small><a href="{% url "project_detail" project.pk %}">View Details</a></small></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
 {% endblock %}

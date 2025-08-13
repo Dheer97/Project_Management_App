@@ -1,26 +1,37 @@
+from tabnanny import verbose
 from django.db import models
 from users.models import User
 
 
 class Project(models.Model):
-    title = models.CharField(max_length=255)
-    description = models.TextField()
-    start_date = models.DateField()
-    end_date = models.DateField()
-    status = models.CharField(max_length=50)
-    members = models.ManyToManyField(User, related_name='projects')
+    STATUS_CHOICES = [('todo', 'To Do'), ('work_in_progress', 'In Progress'), ('complete', 'Completed'),('on_hold','On Hold')]
+    PRIORITY_CHOICES = [('low', 'Low'), ('medium', 'Medium'), ('high', 'High')]
+    
+    title = models.CharField(max_length=255,verbose_name='Project Name')
+    description = models.TextField(verbose_name='Project Description')
+    start_date = models.DateField(verbose_name='Project Start Date')
+    end_date = models.DateField(verbose_name='Project End Date')
+    status = models.CharField(max_length=50,choices=STATUS_CHOICES,verbose_name='Project Status')
+    priority=models.CharField(max_length=10, choices=PRIORITY_CHOICES,verbose_name='Project Priority')
+    members = models.ManyToManyField(User, related_name='projects',verbose_name='Project Members')
+
+    def _str_(self):
+        return self.title
 
 class Task(models.Model):
     PRIORITY_CHOICES = [('low', 'Low'), ('medium', 'Medium'), ('high', 'High')]
     STATUS_CHOICES = [('todo', 'To Do'), ('in_progress', 'In Progress'), ('done', 'Done')]
 
     project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='tasks')
-    title = models.CharField(max_length=255)
-    description = models.TextField()
-    status = models.CharField(max_length=20, choices=STATUS_CHOICES)
-    priority = models.CharField(max_length=10, choices=PRIORITY_CHOICES)
-    due_date = models.DateField()
-    assigned_to = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, related_name='tasks')
+    title = models.CharField(max_length=255,verbose_name='Task Name')
+    description = models.TextField(verbose_name='Task Description')
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES,verbose_name='Task Status')
+    priority = models.CharField(max_length=10, choices=PRIORITY_CHOICES,verbose_name='Task Priority')
+    due_date = models.DateField(verbose_name='Due Date')
+    assigned_to = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, related_name='tasks',verbose_name='Assigned To')
+
+    def __str__(self):
+        return self.project.title
 
 class Document(models.Model):
     project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='documents')

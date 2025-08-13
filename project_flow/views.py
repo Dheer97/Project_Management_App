@@ -39,7 +39,9 @@ def add_project(request):
 def add_task(request, project_id):
     if request.method == 'POST':
         form = TaskForm(request.POST)
+        
         if form.is_valid():
+            print(form)
             form.save()
             return redirect('project_detail', pk=project_id)
     else:
