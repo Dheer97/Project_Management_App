@@ -401,3 +401,10 @@
 2025-08-10 19:23:49,155 | INFO | Watching for file changes with StatReloader
 2025-08-10 19:23:58,270 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_management_app\wsgi.py changed, reloading.
 2025-08-10 19:23:59,980 | INFO | Watching for file changes with StatReloader
+2025-08-13 23:16:40,639 | INFO | Watching for file changes with StatReloader
+2025-08-13 23:18:07,817 | INFO | Watching for file changes with StatReloader
+2025-08-13 23:20:50,766 | INFO | Watching for file changes with StatReloader
+2025-08-13 23:26:33,800 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_management_app\wsgi.py changed, reloading.
+2025-08-13 23:26:34,744 | INFO | Watching for file changes with StatReloader
+2025-08-13 23:26:47,933 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_management_app\wsgi.py changed, reloading.
+2025-08-13 23:26:48,847 | INFO | Watching for file changes with StatReloader
