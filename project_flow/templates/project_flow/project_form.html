@@ -1,0 +1,109 @@
+{% extends 'project_flow_base.html' %}
+{% block title %}
+{% if project %}
+Edit Project - {{project.title}}
+{% else %}
+Create New Project
+{% endif %}
+{% endblock title %}
+
+
+{% block content %}
+<h1>{% if project %} Edit Project {% else %} Create New Project{% endif %}</h1>
+
+
+<form method="post" novalidate class="needs-validation">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="title" class="form-label">Project Name</label>
+        <input type="text" class="form-control" id="title" name="title" value="{{project.title|default_if_none:''}}"
+            required>
+        <div class="invalid-feedback">Please provide a project name</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Project Description</label>
+        <textarea name="description" id="description" class="form-control"
+            rows="4">{{project.description|default_if_none:''}}</textarea>
+        <div class="invalid-feedback">Please provide a project description</div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="start_date" class="form-label">Start Date</label>
+            <input type="date" class="form-control" id="start_date" name="start_date"
+                value="{{project.start_date|date:'Y-m-d'|default_if_none:''}}" required>
+            <div class="invalid-feedback">Please provide a project name</div>
+        </div>
+        <div class="col-md-6">
+            <label for="end_date" class="form-label">End Date</label>
+            <input type="date" class="form-control" id="end_date" name="end_date"
+                value="{{project.end_date|date:'Y-m-d'|default_if_none:''}}" required>
+            <div class="invalid-feedback">Please provide a project name</div>
+
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="status" class="form-label">Status</label>
+            <select name="status" id="status" class="form-select">
+                <option value="" disabled {% if not project.status %}selected {%endif%}>Choose...</option>
+                {% for  value,label in status_choices %}
+                <option value="{{ value }}" {% if project.status == value %}selected{% endif %}>{{label}}</option>
+                {% endfor %}
+            </select>
+            <div class="invalid-feedback">Please select a status</div>
+        </div>
+        <div class="col-md-6">
+            <label for="priority" class="form-label">Priority</label>
+            <select name="priority" id="priority" class="form-select">
+                <option value="" disabled {% if not project.priority %}selected {%endif%}>Choose...</option>
+                {% for  value,label in priority_choices %}
+                <option value="{{ value }}" {% if project.priority == value %}selected{% endif %}>{{label}}</option>
+                {% endfor %}
+            </select>
+            <div class="invalid-feedback">Please select a status</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="members" class="form-label">Project Members</label>
+            <select multiple name="members" id="members" class="form-select">
+                {% for  user in users %}
+                <option value="{{ user.id }}" {% if project and user in project.members.all %}selected{% endif %}>
+                    {{user.username}}
+                </option>
+                {% endfor %}
+            </select>
+            <div class="form-text">Hold down the Ctrl or Command button to select multiple members</div>
+        </div>
+
+
+
+    </div>
+    <button type="submit" class="btn btn-primary">
+        {% if project %}Update{% else %}Create {% endif %}
+    </button>
+    <a href="" class="btn btn-secondary ms-2">Cancel</a>
+
+</form>
+
+<script>
+    (() => {
+        'use strict'
+        const forms = document.querySelectorAll('.needs-validation')
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })();
+</script>
+
+
+
+{% endblock content %}

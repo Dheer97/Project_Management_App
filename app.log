@@ -408,3 +408,608 @@
 2025-08-13 23:26:34,744 | INFO | Watching for file changes with StatReloader
 2025-08-13 23:26:47,933 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_management_app\wsgi.py changed, reloading.
 2025-08-13 23:26:48,847 | INFO | Watching for file changes with StatReloader
+2025-08-13 23:33:31,094 | INFO | "GET / HTTP/1.1" 200 2977
+2025-08-13 23:33:31,673 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-08-13 23:33:46,919 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-08-13 23:33:46,925 | INFO | "GET / HTTP/1.1" 200 3145
+2025-08-13 23:33:57,773 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-08-13 23:33:57,802 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3439
+2025-08-13 23:34:00,884 | INFO | "GET /project-flow/project/1/ HTTP/1.1" 200 4634
+2025-08-13 23:34:04,631 | INFO | "GET /project-flow/project/1/task/add/ HTTP/1.1" 200 3648
+2025-08-13 23:34:35,010 | ERROR | "POST /project-flow/project/1/task/add/ HTTP/1.1" 500 161310
+2025-08-13 23:35:06,022 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\forms.py changed, reloading.
+2025-08-13 23:35:06,884 | INFO | Watching for file changes with StatReloader
+2025-08-13 23:35:12,688 | INFO | "GET /project-flow/project/1/task/add/ HTTP/1.1" 200 3880
+2025-08-13 23:35:24,439 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-09-13 20:21:53,589 | INFO | Watching for file changes with StatReloader
+2025-09-13 20:21:59,680 | INFO | "GET / HTTP/1.1" 200 2977
+2025-09-13 20:22:06,318 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-09-13 20:22:22,566 | INFO | "GET / HTTP/1.1" 200 2977
+2025-09-13 20:22:28,994 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-09-13 21:29:19,556 | INFO | Watching for file changes with StatReloader
+2025-09-13 21:29:26,938 | INFO | "GET / HTTP/1.1" 200 2977
+2025-09-13 21:29:35,823 | INFO | "GET / HTTP/1.1" 200 2977
+2025-09-13 21:34:28,991 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-09-13 21:34:29,053 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3439
+2025-09-18 17:50:59,893 | INFO | Watching for file changes with StatReloader
+2025-09-18 17:51:05,496 | INFO | "GET / HTTP/1.1" 200 2977
+2025-09-18 17:51:06,237 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-09-18 17:51:17,707 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-09-18 17:51:18,037 | ERROR | "GET /project-flow/dashboard HTTP/1.1" 500 170349
+2025-09-18 17:57:22,240 | ERROR | "GET /project-flow/dashboard HTTP/1.1" 500 170349
+2025-09-18 17:59:59,994 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3115
+2025-09-18 18:00:09,336 | INFO | "GET /project-flow/project/1/ HTTP/1.1" 200 4509
+2025-09-18 18:00:12,241 | INFO | "GET /project-flow/project/1/task/add/ HTTP/1.1" 200 3755
+2025-09-27 14:06:37,805 | INFO | Watching for file changes with StatReloader
+2025-09-27 14:07:15,102 | INFO | "GET / HTTP/1.1" 200 2977
+2025-09-27 14:07:15,867 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-09-27 14:07:29,488 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-09-27 14:07:30,163 | ERROR | "GET /project-flow/dashboard HTTP/1.1" 500 166395
+2025-09-27 14:23:40,485 | ERROR | "GET /project-flow/dashboard HTTP/1.1" 500 166248
+2025-09-27 14:36:22,914 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-09-27 14:36:25,128 | INFO | Watching for file changes with StatReloader
+2025-09-27 14:37:02,644 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-09-27 14:37:04,247 | INFO | Watching for file changes with StatReloader
+2025-09-27 14:37:08,599 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-09-27 14:37:10,512 | INFO | Watching for file changes with StatReloader
+2025-09-27 14:37:34,799 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-09-27 14:37:36,453 | INFO | Watching for file changes with StatReloader
+2025-10-03 21:03:05,237 | INFO | Watching for file changes with StatReloader
+2025-10-03 21:16:02,434 | INFO | "GET / HTTP/1.1" 200 2977
+2025-10-03 21:16:02,917 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-10-03 21:16:09,535 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-03 21:16:09,542 | INFO | "GET / HTTP/1.1" 200 3145
+2025-10-03 22:17:57,908 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-03 22:17:57,972 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3115
+2025-10-03 22:18:01,677 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 91605
+2025-10-03 22:19:34,057 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-03 22:19:37,255 | INFO | Watching for file changes with StatReloader
+2025-10-03 22:19:39,394 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 91605
+2025-10-03 22:19:50,183 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-03 22:19:51,412 | INFO | Watching for file changes with StatReloader
+2025-10-03 22:19:56,687 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 91742
+2025-10-04 10:51:28,332 | INFO | Watching for file changes with StatReloader
+2025-10-04 18:29:55,648 | INFO | Watching for file changes with StatReloader
+2025-10-04 18:30:14,063 | INFO | "GET / HTTP/1.1" 200 2977
+2025-10-04 18:30:14,717 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-10-04 18:30:27,309 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-04 18:30:27,318 | INFO | "GET / HTTP/1.1" 200 3145
+2025-10-04 18:30:41,633 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-04 18:30:41,745 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3115
+2025-10-04 18:30:46,260 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 91300
+2025-10-04 18:44:07,276 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-04 18:44:09,989 | INFO | Watching for file changes with StatReloader
+2025-10-04 18:46:11,361 | INFO | Watching for file changes with StatReloader
+2025-10-04 18:48:17,644 | INFO | Watching for file changes with StatReloader
+2025-10-04 18:48:54,959 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-04 18:48:56,674 | INFO | Watching for file changes with StatReloader
+2025-10-04 18:50:57,988 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-04 18:50:59,863 | INFO | Watching for file changes with StatReloader
+2025-10-04 18:51:07,661 | INFO | "GET / HTTP/1.1" 200 3141
+2025-10-04 18:51:22,141 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-04 18:51:22,242 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3439
+2025-10-04 18:51:26,294 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 209428
+2025-10-04 18:52:31,890 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 209610
+2025-10-04 18:54:49,694 | WARNING | "GET /project-flow/ HTTP/1.1" 404 5224
+2025-10-04 18:54:59,501 | INFO | "GET /project-flow/project/add HTTP/1.1" 301 0
+2025-10-04 18:54:59,828 | INFO | "GET /project-flow/project/add/ HTTP/1.1" 200 3715
+2025-10-04 18:55:22,207 | INFO | "POST /project-flow/project/add/ HTTP/1.1" 302 0
+2025-10-04 18:55:22,224 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3776
+2025-10-04 18:55:30,650 | WARNING | "GET /project-flow/ HTTP/1.1" 404 5224
+2025-10-04 18:55:44,201 | INFO | "GET /project-flow/project/1 HTTP/1.1" 301 0
+2025-10-04 18:55:44,408 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 209300
+2025-10-04 18:55:51,978 | WARNING | "GET /project-flow/ HTTP/1.1" 404 5224
+2025-10-04 18:56:47,694 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 209300
+2025-10-04 19:01:02,504 | INFO | Watching for file changes with StatReloader
+2025-10-04 19:01:07,710 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3776
+2025-10-04 19:01:50,960 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 213380
+2025-10-04 19:04:41,382 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-04 19:04:47,070 | INFO | Watching for file changes with StatReloader
+2025-10-04 19:04:52,141 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-04 19:04:56,722 | INFO | Watching for file changes with StatReloader
+2025-10-04 19:05:00,780 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-04 19:05:06,310 | INFO | Watching for file changes with StatReloader
+2025-10-04 19:05:15,677 | WARNING | "GET /project-flow/ HTTP/1.1" 404 5224
+2025-10-04 19:05:22,180 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3776
+2025-10-04 19:06:18,693 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 143079
+2025-10-04 19:06:38,752 | INFO | "GET / HTTP/1.1" 200 2977
+2025-10-04 19:07:40,502 | INFO | Watching for file changes with StatReloader
+2025-10-04 19:07:55,550 | ERROR | "GET /project-flow/project/1/ HTTP/1.1" 500 143069
+2025-10-04 19:09:51,499 | INFO | Watching for file changes with StatReloader
+2025-10-04 19:11:44,512 | INFO | - Broken pipe from ('127.0.0.1', 62335)
+2025-10-04 19:11:44,538 | INFO | - Broken pipe from ('127.0.0.1', 53366)
+2025-10-04 19:11:44,548 | INFO | - Broken pipe from ('127.0.0.1', 54926)
+2025-10-04 19:11:46,058 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-04 19:11:46,083 | INFO | "GET /project-flow/dashboard HTTP/1.1" 200 3940
+2025-10-04 19:11:57,693 | INFO | "GET /project-flow/project/1/ HTTP/1.1" 200 4634
+2025-10-04 19:12:08,986 | INFO | "GET /project-flow/project/1/task/add/ HTTP/1.1" 200 3771
+2025-10-04 19:12:24,500 | INFO | "POST /project-flow/project/1/task/add/ HTTP/1.1" 302 0
+2025-10-04 19:12:39,654 | INFO | "GET /project-flow/project/1/ HTTP/1.1" 200 4860
+2025-10-04 19:13:00,203 | INFO | "GET /project-flow/project/1/document/add/ HTTP/1.1" 200 3161
+2025-10-09 22:06:24,995 | INFO | Watching for file changes with StatReloader
+2025-10-09 22:07:03,309 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-09 22:07:04,290 | INFO | Watching for file changes with StatReloader
+2025-10-09 22:07:19,177 | INFO | "GET / HTTP/1.1" 200 2977
+2025-10-09 22:07:29,360 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-10-09 22:07:49,991 | ERROR | "POST /login/ HTTP/1.1" 500 92664
+2025-10-09 22:08:06,076 | WARNING | "GET /project_flow HTTP/1.1" 404 3617
+2025-10-09 22:08:11,489 | WARNING | "GET /project_flow/ HTTP/1.1" 404 3620
+2025-10-11 23:16:04,313 | INFO | Watching for file changes with StatReloader
+2025-10-11 23:16:07,992 | INFO | "GET / HTTP/1.1" 200 2977
+2025-10-11 23:16:08,578 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-10-11 23:16:10,815 | INFO | "GET /register-member-view HTTP/1.1" 200 4171
+2025-10-11 23:16:46,762 | INFO | "POST /register-member/ HTTP/1.1" 302 0
+2025-10-11 23:16:46,769 | INFO | "GET / HTTP/1.1" 200 3132
+2025-10-11 23:17:02,386 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-11 23:17:02,393 | INFO | "GET / HTTP/1.1" 200 3145
+2025-10-11 23:17:18,123 | ERROR | "POST /login/ HTTP/1.1" 500 90401
+2025-10-13 12:14:58,589 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:15:20,480 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:16:11,213 | INFO | "GET / HTTP/1.1" 200 2977
+2025-10-13 12:16:11,735 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-10-13 12:16:18,298 | INFO | "GET /register-member-view HTTP/1.1" 200 4171
+2025-10-13 12:16:43,167 | INFO | "POST /register-member/ HTTP/1.1" 200 4263
+2025-10-13 12:17:33,593 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 12:17:34,923 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:17:38,748 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 12:17:40,346 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:17:43,219 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 12:17:44,337 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:17:51,028 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 12:17:52,743 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:17:57,789 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 12:17:58,822 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:18:00,401 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 12:18:02,220 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:57:20,188 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:57:21,792 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:57:32,269 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:57:34,836 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:57:38,558 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:57:40,354 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:57:41,779 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:57:43,618 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:57:57,282 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:57:59,291 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:01,981 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:03,851 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:05,510 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:07,520 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:09,188 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:11,154 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:13,935 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:16,137 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:17,995 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:19,761 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:21,521 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:23,097 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:25,797 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:27,348 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:46,888 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:48,500 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:51,063 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:53,094 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:54,657 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:58:56,241 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:58:58,761 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:00,346 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:07,397 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:09,208 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:11,958 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:13,574 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:15,201 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:16,885 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:20,539 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:23,109 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:24,649 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:26,305 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:28,962 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:30,436 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:31,979 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:33,972 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:40,924 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:42,748 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:45,348 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:47,045 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:49,578 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:51,226 | INFO | Watching for file changes with StatReloader
+2025-10-13 12:59:52,724 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 12:59:54,423 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:00:06,307 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:00:08,035 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:00:16,341 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:00:17,720 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:00:23,830 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:00:25,485 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:00:31,309 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:00:34,043 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:00:50,845 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:00:52,564 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:00:57,337 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:00:59,093 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:02,908 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:04,657 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:11,975 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:13,501 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:17,523 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:19,045 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:21,782 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:23,519 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:30,372 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:31,956 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:34,617 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:36,722 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:39,409 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:41,601 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:47,678 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:49,621 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:51,276 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:52,880 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:01:55,539 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:01:58,011 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:02:00,799 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:02:02,261 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:02:05,841 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:02:07,648 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:02:11,460 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:02:13,257 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:02:16,842 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:02:18,319 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:02:25,439 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:02:27,202 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:02:28,720 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:02:31,090 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:02:57,516 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:02:59,504 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:06,582 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:08,257 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:12,220 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:14,057 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:16,806 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:18,595 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:23,466 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:25,441 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:29,494 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:31,236 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:35,142 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:36,798 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:38,431 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:40,503 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:44,211 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:45,742 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:47,317 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:49,644 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:51,279 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:53,721 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:03:56,317 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:03:58,268 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:01,224 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:03,088 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:10,250 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:12,043 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:22,549 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:24,394 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:35,958 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:38,153 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:45,230 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:47,153 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:48,855 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:50,064 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:52,682 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:54,471 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:04:57,341 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:04:59,836 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:05:07,033 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:05:08,753 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:05:12,668 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:05:15,565 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:05:20,375 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:05:21,997 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:06:23,371 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:06:25,227 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:06:30,961 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:06:32,644 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:06:38,597 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:06:40,446 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:06:46,073 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:06:47,358 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:06:49,969 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:06:51,413 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:06:57,131 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:06:59,227 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:20,803 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:21,941 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:26,688 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:28,488 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:31,031 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:31,934 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:34,272 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:35,785 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:37,080 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:38,065 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:43,624 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:44,629 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:48,016 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:49,099 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:07:56,695 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:07:57,632 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:04,146 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:05,284 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:09,843 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:10,786 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:13,271 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:14,280 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:16,635 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:17,548 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:27,143 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:28,071 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:32,714 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:34,456 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:37,002 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:38,299 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:40,696 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:41,607 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:43,940 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:45,606 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:46,885 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:47,841 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:51,233 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:52,354 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:08:53,661 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:08:54,692 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:20:25,877 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 13:20:26,875 | INFO | Watching for file changes with StatReloader
+2025-10-13 13:21:56,228 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:42:57,649 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:52:17,857 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:55:12,786 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:55:48,193 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:55:49,517 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:56:09,939 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:56:11,850 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:56:16,450 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:56:17,882 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:56:19,306 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:56:22,153 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:56:24,630 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:56:26,147 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:56:28,419 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:56:30,342 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:56:33,673 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:56:34,934 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:56:55,705 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:56:57,965 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:03,972 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:05,429 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:13,073 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:14,785 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:21,758 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:23,549 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:28,574 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:30,249 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:36,450 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:37,774 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:40,719 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:41,980 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:46,788 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:48,509 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:50,457 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:52,561 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:57:54,569 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:57:55,824 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:58:03,910 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:58:07,105 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:58:10,045 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:58:11,443 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:58:13,223 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:58:15,619 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:58:25,092 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:58:26,723 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:58:34,936 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:58:37,417 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:58:39,229 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:58:40,527 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:58:46,363 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:58:47,556 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:59:27,456 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:59:28,807 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:59:37,030 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:59:39,308 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:59:45,647 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:59:47,487 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:59:50,028 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:59:51,151 | INFO | Watching for file changes with StatReloader
+2025-10-13 14:59:55,684 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 14:59:58,075 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:00,334 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:03,590 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:05,539 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:07,435 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:10,552 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:12,266 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:22,484 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:23,755 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:25,591 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:26,757 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:30,601 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:32,999 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:34,859 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:36,556 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:40,555 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:43,408 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:00:45,848 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:00:47,099 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:05,706 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:07,134 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:12,799 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:14,555 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:23,636 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:25,061 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:30,785 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:32,579 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:40,811 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:42,544 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:44,180 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:45,736 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:53,846 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:56,155 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:01:58,139 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:01:59,746 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:02:04,315 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:02:05,457 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:02:10,340 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:02:12,541 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:02:14,341 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:02:16,577 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:02:21,886 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:02:24,593 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:02:32,445 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:02:34,122 | INFO | Watching for file changes with StatReloader
+2025-10-13 15:02:40,020 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 15:02:41,306 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:05:56,493 | INFO | "GET / HTTP/1.1" 200 2977
+2025-10-13 16:06:10,221 | ERROR | "POST /login/ HTTP/1.1" 500 92673
+2025-10-13 16:06:28,817 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:06:30,150 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:06:32,797 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:06:33,840 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:06:36,177 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:06:37,190 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:06:41,706 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:06:42,681 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:06:48,182 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:06:49,521 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:06:50,927 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:06:52,200 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:07:06,131 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:07:07,251 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:07:09,746 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:07:11,006 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:07:13,395 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:07:14,423 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:07:18,962 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:07:20,090 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:07:21,643 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\urls.py changed, reloading.
+2025-10-13 16:07:23,037 | INFO | Watching for file changes with StatReloader
+2025-10-13 16:07:26,331 | WARNING | Forbidden (CSRF token from POST incorrect.): /login/
+2025-10-13 16:07:26,332 | WARNING | "POST /login/ HTTP/1.1" 403 2503
+2025-10-13 16:08:11,632 | INFO | "GET / HTTP/1.1" 200 3141
+2025-10-13 16:08:26,018 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 16:08:26,024 | INFO | "GET / HTTP/1.1" 200 3145
+2025-10-13 16:08:47,599 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 16:08:47,632 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3942
+2025-10-13 16:09:06,288 | ERROR | "GET /project-flow/projects/1/ HTTP/1.1" 500 143226
+2025-10-13 17:49:43,664 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 142695
+2025-10-13 17:49:49,152 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 142695
+2025-10-13 17:50:36,238 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 142407
+2025-10-13 17:52:03,450 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3811
+2025-10-13 17:52:45,441 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 143117
+2025-10-13 17:53:14,327 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 143117
+2025-10-13 17:55:20,798 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3819
+2025-10-13 17:56:42,315 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 141875
+2025-10-13 18:34:08,910 | WARNING | "GET /project-flow/ HTTP/1.1" 404 6970
+2025-10-13 18:34:25,047 | INFO | "GET /project-flow/projects/create HTTP/1.1" 302 0
+2025-10-13 18:34:25,072 | WARNING | "GET /accounts/login/?next=/project-flow/projects/create HTTP/1.1" 404 3661
+2025-10-13 18:35:13,531 | ERROR | "GET / HTTP/1.1" 500 140528
+2025-10-13 18:35:16,574 | ERROR | "GET / HTTP/1.1" 500 140528
+2025-10-13 18:35:21,648 | ERROR | "GET / HTTP/1.1" 500 140665
+2025-10-13 18:35:40,359 | INFO | Watching for file changes with StatReloader
+2025-10-13 18:35:44,858 | ERROR | "GET / HTTP/1.1" 500 140665
+2025-10-13 18:36:18,716 | INFO | "GET / HTTP/1.1" 200 2134
+2025-10-13 18:36:32,175 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 18:36:32,308 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 137576
+2025-10-13 18:37:06,910 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 18:37:09,267 | INFO | Watching for file changes with StatReloader
+2025-10-13 18:37:11,131 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 18:37:13,244 | INFO | Watching for file changes with StatReloader
+2025-10-13 18:37:15,047 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 136434
+2025-10-13 18:37:17,809 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 136434
+2025-10-13 18:38:13,935 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 136895
+2025-10-13 18:38:50,264 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 136895
+2025-10-13 18:38:52,241 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 136895
+2025-10-13 18:40:09,438 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 137350
+2025-10-13 18:41:30,296 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 142606
+2025-10-13 18:42:04,249 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 2363
+2025-10-13 18:43:48,597 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 2442
+2025-10-13 18:44:49,416 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 2533
+2025-10-13 18:53:48,815 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 180536
+2025-10-13 18:54:25,402 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3123
+2025-10-13 18:54:29,022 | INFO | "GET /project-flow/projects/create HTTP/1.1" 302 0
+2025-10-13 18:54:29,039 | WARNING | "GET /accounts/login/?next=/project-flow/projects/create HTTP/1.1" 404 3661
+2025-10-13 18:55:36,989 | WARNING | "GET /accounts/login/?next=/project-flow/projects/create HTTP/1.1" 404 3661
+2025-10-13 18:55:41,700 | INFO | "GET / HTTP/1.1" 200 2282
+2025-10-13 18:55:55,360 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 18:55:55,372 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3123
+2025-10-13 18:55:57,728 | ERROR | "GET /project-flow/projects/create HTTP/1.1" 500 190142
+2025-10-13 18:56:33,656 | ERROR | "GET /project-flow/projects/create HTTP/1.1" 500 190279
+2025-10-13 18:56:35,429 | ERROR | "GET /project-flow/projects/create HTTP/1.1" 500 190279
+2025-10-13 18:56:36,037 | ERROR | "GET /project-flow/projects/create HTTP/1.1" 500 190279
+2025-10-13 18:56:53,798 | ERROR | "GET /project-flow/projects/create HTTP/1.1" 500 189968
+2025-10-13 18:57:14,964 | ERROR | "GET /project-flow/projects/create HTTP/1.1" 500 189968
+2025-10-13 18:59:07,131 | INFO | "GET /project-flow/projects/create HTTP/1.1" 200 5504
+2025-10-13 19:18:14,234 | INFO | "POST /project-flow/projects/create HTTP/1.1" 302 0
+2025-10-13 19:18:14,259 | WARNING | "GET /accounts/login/?next=/project-flow/projects/create HTTP/1.1" 404 3661
+2025-10-13 19:19:26,807 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_management_app\settings.py changed, reloading.
+2025-10-13 19:19:28,027 | INFO | Watching for file changes with StatReloader
+2025-10-13 19:22:34,054 | INFO | "GET / HTTP/1.1" 200 2282
+2025-10-13 19:22:46,422 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 19:22:46,440 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3123
+2025-10-13 19:22:49,164 | INFO | "GET /project-flow/projects/create HTTP/1.1" 200 5600
+2025-10-13 19:24:08,693 | INFO | "GET /project-flow/projects/create HTTP/1.1" 200 5581
+2025-10-13 19:25:16,080 | INFO | "POST /project-flow/projects/create HTTP/1.1" 302 0
+2025-10-13 19:25:16,208 | ERROR | "GET /project-flow/projects/3/ HTTP/1.1" 500 144229
+2025-10-13 19:26:32,063 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2333
+2025-10-13 20:38:44,600 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2724
+2025-10-13 20:48:07,154 | ERROR | "GET /project-flow/projects/3/ HTTP/1.1" 500 226233
+2025-10-13 20:48:51,942 | ERROR | "GET /project-flow/projects/2/ HTTP/1.1" 500 225836
+2025-10-13 20:48:57,546 | ERROR | "GET /project-flow/projects/1/ HTTP/1.1" 500 226498
+2025-10-13 20:49:24,958 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4005
+2025-10-13 21:02:45,314 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4354
+2025-10-13 21:02:50,317 | INFO | "GET /project-flow/projects/1/edit/ HTTP/1.1" 200 5581
+2025-10-13 21:03:54,556 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:03:57,322 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:03:59,965 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:04:01,075 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:04:04,832 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:04:05,885 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:04:07,585 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:04:09,320 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:04:10,997 | INFO | "GET /project-flow/projects/1/edit/ HTTP/1.1" 200 5632
+2025-10-13 21:04:21,617 | INFO | "POST /project-flow/projects/1/edit/ HTTP/1.1" 302 0
+2025-10-13 21:04:21,654 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4355
+2025-10-13 21:04:41,610 | ERROR | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 500 91061
+2025-10-13 21:05:37,197 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:05:38,650 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:05:41,042 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:05:42,145 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:10:00,730 | ERROR | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 500 96296
+2025-10-13 21:26:19,088 | ERROR | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 500 96296
+2025-10-13 21:28:56,118 | ERROR | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 500 96296
+2025-10-13 21:29:02,871 | ERROR | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 500 95984
+2025-10-13 21:30:38,131 | WARNING | "GET /project-flow/projects/1/t HTTP/1.1" 404 7006
+2025-10-13 21:30:42,077 | WARNING | "GET /project-flow/ HTTP/1.1" 404 6970
+2025-10-13 21:30:55,834 | WARNING | "GET /dashboard HTTP/1.1" 404 3608
+2025-10-13 21:31:00,838 | INFO | "GET / HTTP/1.1" 200 2282
+2025-10-13 21:31:19,273 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 21:31:19,291 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3579
+2025-10-13 21:31:29,427 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4355
+2025-10-13 21:31:32,012 | ERROR | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 500 96159
+2025-10-13 21:31:56,045 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:31:57,934 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:31:59,531 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:32:00,656 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:32:03,380 | INFO | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 200 5097
+2025-10-13 21:33:51,505 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:33:52,660 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:35:35,615 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:35:37,252 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:35:44,323 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:35:45,721 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:35:53,655 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:35:55,009 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:36:00,886 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:36:02,224 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:36:08,104 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:36:09,382 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:36:22,734 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-13 21:36:23,953 | INFO | Watching for file changes with StatReloader

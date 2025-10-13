@@ -29,7 +29,7 @@ class TaskForm(forms.ModelForm):
     class Meta:
         model = Task
         fields = [
-            # 'project',
+            'project',
             'title',
             'description',
             'status',

@@ -1,0 +1,16 @@
+{% extends 'project_flow_base.html' %}
+{% block title %}Delete Project - {{project.title}} {% endblock %}
+
+{% block content %}
+<h1>Delete Project</h1>
+
+
+<div class="alert alert-danger" role="alert">
+    Are you sure you want to delete the project "<strong>{{project.title}}</strong>"?
+</div>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Yes, delete</button>
+    <a href="{% url 'project_detail' project.pk %}" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,45 @@
+<!-- project_flow/project_detail.html -->
+{% extends 'project_flow_base.html' %}
+{% block title %}
+{{task.title}}- Task Details
+{% endblock %}
+
+
+{% block content %}
+
+<div class="mb-3 d-flex justify-content-between align-items-center">
+    <h1>{{task.title}}</h1>
+    <div>
+        <a href="{% url 'task_update' project.pk %}" class="btn btn-primary">Edit</a>
+        <a href="{% url 'project_delete' project.pk %}" class="btn btn-danger">Delete</a>
+        <a href="{% url 'task_list'  %}" class="btn btn-secondary">Back to Tasks</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+
+
+
+
+        <p><strong>Description</strong>{{task.description}}</p>
+        <p><strong>Status</strong>{{task.get_status_display}}</p>
+        <p><strong>Priority:</strong>{{task.get_priority_display}}</p>
+        <p><strong>Due Date:</strong>{{task.due_date}}</p>
+        <p><strong>Assigned To:</strong>
+            {% if task.assigned_to %}
+            {{task.assigned_to.username}}
+            {% else %}
+            Unassigned
+            {% endif %}
+        </p>
+        <p><strong>Project:</strong><a href="{% url 'project_detail' task.project.pk %}">{{task.project.title}}</a></p>
+
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}

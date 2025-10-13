@@ -1,0 +1,101 @@
+{% extends 'project_flow_base.html' %}
+{% block title %}
+{% if task %}
+Edit Task - {{project.title}}
+{% else %}
+Create Task
+{% endif %}
+{% endblock title %}
+
+
+{% block content %}
+<h1>{% if task %} Edit Task {% else %} Create Task{% endif %}</h1>
+
+
+<form method="post" novalidate class="needs-validation">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="title" class="form-label">Task Name</label>
+        <input type="text" class="form-control" id="title" name="title" value="{{task.title|default_if_none:''}}"
+            required>
+        <div class="invalid-feedback">Please provide a project name</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Task Description</label>
+        <textarea name="description" id="description" class="form-control"
+            rows="4">{{task.description|default_if_none:''}}</textarea>
+        <div class="invalid-feedback">Please provide a task description</div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="status" class="form-label">Status</label>
+            <select name="status" id="status" class="form-select">
+                <option value="" disabled {% if not task.status %}selected {%endif%}>Choose...</option>
+                {% for  value,label in status_choices %}
+                <option value="{{ value }}" {% if task.status == value %}selected{% endif %}>{{label}}</option>
+                {% endfor %}
+            </select>
+            <div class="invalid-feedback">Please select a status</div>
+        </div>
+        <div class="col-md-6">
+            <label for="priority" class="form-label">Priority</label>
+            <select name="priority" id="priority" class="form-select">
+                <option value="" disabled {% if not task.priority %}selected {%endif%}>Choose...</option>
+                {% for  value,label in priority_choices %}
+                <option value="{{ value }}" {% if task.priority == value %}selected{% endif %}>{{label}}</option>
+                {% endfor %}
+            </select>
+            <div class="invalid-feedback">Please select a status</div>
+        </div>
+    </div>
+
+
+    <div class="mb-3">
+        <label for="due_date" class="form-label">Due Date</label>
+        <input type="date" class="form-control" id="due_date" name="due_date" required value="{{
+            task.due_date|date:'Y-m-d'|default_if_none:''|default:''
+        }}">
+        <div class="invalid-feedback">Please select a due date</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="assigned_to" class="form-label">Assign To</label>
+        <select name="assigned_to" id="assigned_to" class="form-select">
+            <option value="" {% if not task.assigned_to %}selected {%endif%}>Unassigned</option>
+            {% for user in users %}
+            <option value="{{user.id}}" {% if task.assigned_to and task.assigned_to.id == user.id %}selected{% endif %}>
+                {{user.username}}
+            </option>
+            {% endfor %}
+        </select>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">
+        {% if task %}Update{% else %}Create {% endif %}
+    </button>
+    <a href="{% url 'task_list' project.pk %}" class="btn btn-secondary ms-2">Cancel</a>
+
+</form>
+
+<script>
+    (() => {
+        'use strict'
+        const forms = document.querySelectorAll('.needs-validation')
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })();
+</script>
+
+
+
+{% endblock content %}
