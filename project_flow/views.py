@@ -13,7 +13,7 @@ from users.models import User
 # Create your views here.
 
 
-def dashboard(request):
+def project_list(request):
     projects = Project.objects.all()
     return render(request, 'project_flow/project_list.html', {'projects': projects})
 
