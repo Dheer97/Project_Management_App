@@ -1,27 +1,34 @@
 <!-- projects/user_task_list.html -->
-{% extends 'project_flow/project_flow_base.html' %}
-
-{% block content %}
+{% extends 'project_flow/project_flow_base.html' %} {% block content %}
 <h1>My Tasks</h1>
 
 {% if tasks %}
 <ul class="list-group">
-    {% for task in tasks %}
-    <li class="list-group-item">
-        <strong>{{ task.title }}</strong>
-        <div class="text-muted small">
-            Due: {{ task.due_date }} | Status: {{ task.status }} | Priority: {{ task.priority }}
-        </div>
-        <div class="mt-1">
-            <a href="{% url 'task_detail' pk=task.pk %}" class="btn btn-sm btn-info">View</a>
-            <a href="{% url 'task_update' pk=task.pk %}" class="btn btn-sm btn-secondary">Edit</a>
-        </div>
-    </li>
-    {% endfor %}
+	{% for task in tasks %}
+	<li class="list-group-item">
+		<strong>{{ task.title }}</strong>
+		<div class="text-muted small">
+			Due: {{ task.due_date }} | Status: {{ task.status }} | Priority: {{
+			task.priority }}
+		</div>
+		<div class="mt-1">
+			<a href="{% url 'task_detail' pk=task.pk %}" class="btn btn-sm btn-info"
+				>View</a
+			>
+			<a
+				href="{% url 'task_update' pk=task.pk %}"
+				class="btn btn-sm btn-secondary"
+				>Edit</a
+			>
+		</div>
+	</li>
+	{% endfor %}
 </ul>
 {% else %}
 <p>You have no tasks assigned to you.</p>
 {% endif %}
 
-<a href="{% url 'project_list' %}" class="btn btn-outline-primary">View My Projects</a>
+<a href="{% url 'project_list' %}" class="btn btn-outline-primary"
+	>View My Projects</a
+>
 {% endblock %}

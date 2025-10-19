@@ -1013,3 +1013,147 @@
 2025-10-13 21:36:09,382 | INFO | Watching for file changes with StatReloader
 2025-10-13 21:36:22,734 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
 2025-10-13 21:36:23,953 | INFO | Watching for file changes with StatReloader
+2025-10-13 21:36:32,405 | INFO | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 200 5097
+2025-10-13 21:37:13,985 | WARNING | "GET /project-flow/projects HTTP/1.1" 404 6994
+2025-10-13 21:39:42,560 | INFO | "GET /project-flow/projects/1 HTTP/1.1" 301 0
+2025-10-13 21:39:42,628 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4355
+2025-10-13 21:39:46,780 | INFO | "GET /project-flow/projects/1/edit/ HTTP/1.1" 200 5633
+2025-10-13 21:39:55,073 | INFO | "POST /project-flow/projects/1/edit/ HTTP/1.1" 302 0
+2025-10-13 21:39:55,103 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4356
+2025-10-13 21:39:56,700 | INFO | "GET /project-flow/projects/1/edit/ HTTP/1.1" 200 5634
+2025-10-13 21:40:44,898 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94168
+2025-10-13 21:41:52,611 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94305
+2025-10-13 21:42:23,354 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94305
+2025-10-13 21:48:39,518 | INFO | "GET / HTTP/1.1" 200 2282
+2025-10-13 21:48:53,631 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 21:48:53,648 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3579
+2025-10-13 21:49:00,744 | WARNING | "GET /project-flow HTTP/1.1" 404 3617
+2025-10-13 21:49:09,227 | INFO | "GET /project-flow/projects/1 HTTP/1.1" 301 0
+2025-10-13 21:49:09,273 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4356
+2025-10-13 21:49:18,284 | ERROR | "GET /project-flow/tasks/1/ HTTP/1.1" 500 141523
+2025-10-13 21:58:40,435 | ERROR | "GET /project-flow/tasks/1/ HTTP/1.1" 500 167040
+2025-10-13 21:58:47,332 | WARNING | "GET /project-flow/ HTTP/1.1" 404 6970
+2025-10-13 21:58:58,333 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3579
+2025-10-13 21:59:02,901 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94342
+2025-10-13 22:00:13,821 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94479
+2025-10-13 22:00:15,310 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94479
+2025-10-13 22:07:58,229 | INFO | "GET / HTTP/1.1" 200 2282
+2025-10-13 22:08:11,841 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-13 22:08:11,858 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3579
+2025-10-13 22:08:23,594 | INFO | "GET /project-flow/projects/1/edit/ HTTP/1.1" 200 5634
+2025-10-13 22:08:27,215 | INFO | "POST /project-flow/projects/1/edit/ HTTP/1.1" 302 0
+2025-10-13 22:08:27,266 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4357
+2025-10-13 22:08:30,647 | INFO | "GET /project-flow/projects/1/tasks/create HTTP/1.1" 200 5097
+2025-10-13 22:08:49,189 | INFO | "POST /project-flow/projects/1/tasks/create HTTP/1.1" 302 0
+2025-10-13 22:08:49,274 | ERROR | "GET /project-flow/tasks/4/ HTTP/1.1" 500 167052
+2025-10-18 19:20:25,828 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:23:57,628 | INFO | "GET / HTTP/1.1" 200 2134
+2025-10-18 19:23:58,061 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-10-18 19:24:11,429 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-18 19:24:11,435 | INFO | "GET / HTTP/1.1" 200 2286
+2025-10-18 19:24:25,304 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-18 19:24:25,310 | INFO | "GET / HTTP/1.1" 200 2286
+2025-10-18 19:25:45,877 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-18 19:25:45,882 | INFO | "GET / HTTP/1.1" 200 2286
+2025-10-18 19:26:04,211 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-10-18 19:26:04,275 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3579
+2025-10-18 19:26:09,413 | INFO | "GET /project-flow/projects/1/edit/ HTTP/1.1" 200 5634
+2025-10-18 19:26:14,275 | INFO | "POST /project-flow/projects/1/edit/ HTTP/1.1" 302 0
+2025-10-18 19:26:14,332 | INFO | "GET /project-flow/projects/1/ HTTP/1.1" 200 4775
+2025-10-18 19:26:18,062 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94037
+2025-10-18 19:37:55,668 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 94174
+2025-10-18 19:38:49,568 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:38:50,588 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:38:59,775 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:39:00,760 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:39:02,346 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:39:03,331 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:39:07,252 | ERROR | "GET /project-flow/projects/1/delete HTTP/1.1" 500 173438
+2025-10-18 19:41:38,197 | INFO | "GET /project-flow/projects/1/delete HTTP/1.1" 200 2095
+2025-10-18 19:41:44,107 | ERROR | "POST /project-flow/projects/1/delete HTTP/1.1" 500 97539
+2025-10-18 19:42:04,168 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:42:06,511 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:42:15,449 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:42:16,764 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:42:21,823 | WARNING | "POST /project-flow/projects/1/delete HTTP/1.1" 404 4979
+2025-10-18 19:42:32,215 | WARNING | "GET /project-flow/projects HTTP/1.1" 404 6994
+2025-10-18 19:42:40,489 | INFO | "GET /project-flow/dashboard HTTP/1.1" 301 0
+2025-10-18 19:42:40,538 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 3113
+2025-10-18 19:42:43,675 | INFO | "GET /project-flow/projects/2/edit/ HTTP/1.1" 200 5613
+2025-10-18 19:42:56,978 | INFO | "POST /project-flow/projects/2/edit/ HTTP/1.1" 302 0
+2025-10-18 19:42:57,008 | INFO | "GET /project-flow/projects/2/ HTTP/1.1" 200 2905
+2025-10-18 19:43:07,959 | INFO | "GET /project-flow/projects/2/delete HTTP/1.1" 200 2087
+2025-10-18 19:43:09,508 | INFO | "POST /project-flow/projects/2/delete HTTP/1.1" 302 0
+2025-10-18 19:43:09,519 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 2654
+2025-10-18 19:43:13,578 | INFO | "GET /project-flow/projects/3/edit/ HTTP/1.1" 200 5618
+2025-10-18 19:43:15,729 | INFO | "POST /project-flow/projects/3/edit/ HTTP/1.1" 302 0
+2025-10-18 19:43:15,751 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
+2025-10-18 19:43:25,777 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 2654
+2025-10-18 19:43:30,026 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
+2025-10-18 19:43:32,924 | INFO | "GET /project-flow/projects/3/tasks/create HTTP/1.1" 200 5091
+2025-10-18 19:44:01,442 | INFO | "POST /project-flow/projects/3/tasks/create HTTP/1.1" 302 0
+2025-10-18 19:44:01,657 | ERROR | "GET /project-flow/tasks/5/ HTTP/1.1" 500 166618
+2025-10-18 19:45:31,268 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2439
+2025-10-18 19:48:52,470 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2372
+2025-10-18 19:48:54,736 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5104
+2025-10-18 19:49:20,801 | INFO | "POST /project-flow/tasks/5/edit HTTP/1.1" 302 0
+2025-10-18 19:49:20,818 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2380
+2025-10-18 19:50:06,712 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5112
+2025-10-18 19:50:39,443 | INFO | "POST /project-flow/tasks/5/edit HTTP/1.1" 302 0
+2025-10-18 19:50:39,461 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2380
+2025-10-18 19:50:50,035 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2380
+2025-10-18 19:50:51,748 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2380
+2025-10-18 19:52:20,388 | ERROR | "GET /project-flow/tasks/5/ HTTP/1.1" 500 166207
+2025-10-18 19:52:23,474 | ERROR | "GET /project-flow/tasks/5/ HTTP/1.1" 500 166207
+2025-10-18 19:52:27,449 | INFO | "POST /project-flow/tasks/5/edit HTTP/1.1" 302 0
+2025-10-18 19:52:27,559 | ERROR | "GET /project-flow/tasks/5/ HTTP/1.1" 500 166211
+2025-10-18 19:52:58,837 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2438
+2025-10-18 19:53:01,931 | ERROR | "GET /project-flow/projects/3/tasks HTTP/1.1" 500 142230
+2025-10-18 19:53:57,899 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:53:59,168 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:54:08,335 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:54:09,370 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:54:11,130 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_flow\views.py changed, reloading.
+2025-10-18 19:54:12,104 | INFO | Watching for file changes with StatReloader
+2025-10-18 19:54:15,130 | ERROR | "GET /project-flow/projects/3/tasks HTTP/1.1" 500 142371
+2025-10-18 19:54:16,687 | ERROR | "GET /project-flow/projects/3/tasks HTTP/1.1" 500 142371
+2025-10-18 19:54:17,130 | ERROR | "GET /project-flow/projects/3/tasks HTTP/1.1" 500 142371
+2025-10-18 19:54:17,555 | ERROR | "GET /project-flow/projects/3/tasks HTTP/1.1" 500 142371
+2025-10-18 19:54:41,345 | INFO | "GET /project-flow/projects/3/tasks HTTP/1.1" 200 2557
+2025-10-18 19:55:04,916 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2438
+2025-10-18 19:55:14,313 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5112
+2025-10-18 20:12:14,954 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5093
+2025-10-18 20:12:18,375 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5093
+2025-10-18 21:01:09,652 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5093
+2025-10-18 21:02:23,863 | INFO | "POST /project-flow/tasks/5/edit HTTP/1.1" 302 0
+2025-10-18 21:02:23,912 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2438
+2025-10-18 21:02:27,178 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5093
+2025-10-18 21:02:34,297 | INFO | "POST /project-flow/tasks/5/edit HTTP/1.1" 302 0
+2025-10-18 21:02:34,320 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2438
+2025-10-18 21:02:37,320 | INFO | "GET /project-flow/projects/3/tasks HTTP/1.1" 200 2557
+2025-10-18 21:05:43,006 | INFO | "GET /project-flow/projects/3/tasks HTTP/1.1" 200 2544
+2025-10-18 21:05:48,268 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2438
+2025-10-18 21:05:51,271 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5093
+2025-10-18 21:06:02,049 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:07:21,725 | INFO | "GET /project-flow/tasks/5/edit HTTP/1.1" 200 5040
+2025-10-18 21:07:21,816 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:09:47,990 | INFO | "POST /project-flow/tasks/5/edit HTTP/1.1" 302 0
+2025-10-18 21:09:48,046 | INFO | "GET /project-flow/tasks/5/ HTTP/1.1" 200 2438
+2025-10-18 21:09:48,177 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:09:50,922 | ERROR | "GET /project-flow/tasks/5/delete HTTP/1.1" 500 141361
+2025-10-18 21:09:51,019 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:10:32,597 | INFO | "GET /project-flow/tasks/5/delete HTTP/1.1" 200 2190
+2025-10-18 21:10:32,714 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:10:45,774 | INFO | "POST /project-flow/tasks/5/delete HTTP/1.1" 302 0
+2025-10-18 21:10:45,810 | INFO | "GET /project-flow/projects/3/tasks HTTP/1.1" 200 2042
+2025-10-18 21:10:46,004 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:10:48,447 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
+2025-10-18 21:10:48,564 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:10:53,109 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
+2025-10-18 21:10:53,235 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 21:10:55,367 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
+2025-10-18 21:10:55,469 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 22:40:32,286 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
+2025-10-18 22:40:32,373 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-10-18 22:40:37,006 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
+2025-10-18 22:46:17,375 | ERROR | "GET /project-flow/projects/3/ HTTP/1.1" 500 150047

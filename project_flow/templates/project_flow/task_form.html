@@ -54,9 +54,7 @@ Create Task
 
     <div class="mb-3">
         <label for="due_date" class="form-label">Due Date</label>
-        <input type="date" class="form-control" id="due_date" name="due_date" required value="{{
-            task.due_date|date:'Y-m-d'|default_if_none:''|default:''
-        }}">
+        <input type="date" class="form-control" id="due_date" name="due_date" required value="{{task.due_date|date:'Y-m-d'|default:''}}">
         <div class="invalid-feedback">Please select a due date</div>
     </div>
 

@@ -103,8 +103,8 @@ def project_delete(request,pk):
     project=get_object_or_404(Project,pk=pk)
     if request.method=='POST':
         project.delete()
-        return redirect('project_list')
-    return render(request,'project-flow/project_confirm_delete.html',context={'project':project})
+        return redirect('dashboard')
+    return render(request,'project_flow\project_confirm_delete.html',context={'project':project})
 
 
 # View 1: Task List (for a specific project)
@@ -120,7 +120,7 @@ def task_list(request, project_id):
     print(f"Project ID: {project_id}")
     print(f"Tasks for project: {tasks}")
 
-    return render(request, 'project_flow/task_list.html', {
+    return render(request, r'project_flow\task_list.html', {
         'project': project,
         'tasks': tasks
     })
