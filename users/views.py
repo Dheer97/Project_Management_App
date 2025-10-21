@@ -17,7 +17,9 @@ def register_member(request):
     if request.method=='POST':
         form=RegisterMemberForm(request.POST)
         if form.is_valid():
-            form.save()
+            user = form.save(commit=False)  # Don't save yet
+            user.role = 'manager'  # Assign default role here
+            user.save()  # Save the user with the role
             messages.success(request=request,message='Account Registration Successful.')
             print(messages)
             return redirect('view_login_page')
@@ -33,7 +35,7 @@ def register_member(request):
             # messages.warning(request=request,message=msg)
             print(msg)
             return render(request=request,template_name=r'users/register_users.html',context={'form':form})
-        
+
 def login_user_view(request):
     return render(request,'users/login.html')
 
@@ -52,6 +54,3 @@ def login_user(request):
         else:
             messages.warning(request, 'Something went wrong. Please check form input')
             return redirect("view_login_page")
-    
-
-

@@ -1,3 +1,86 @@
 {
-    
+ "code-runner.runInTerminal": true,
+ "css.format.enable": true,
+ "css.format.spaceAroundSelectorSeparator": true,
+ "css.hover.documentation": true,
+ "css.hover.references": true,
+ "debug.console.fontSize": 14,
+ "debug.terminal.clearBeforeReusing": true,
+ "debug.console.wordWrap": true,
+ "diffEditor.diffAlgorithm": "advanced",
+ "diffEditor.codeLens": true,
+ "django.snippets.use": true,
+ "editor.accessibilitySupport": "off",
+ "editor.folding": true,
+ "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+ "editor.detectIndentation": false,
+ "editor.formatOnPaste": true,
+ "editor.formatOnSave": true,
+ "editor.formatOnType": true,
+ "editor.fontSize": 14,
+ "editor.tabSize": 4,
+ "editor.wordWrap": "on",
+ "explorer.compactFolders": false,
+ "files.autoSave": "afterDelay",
+
+
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.fontSize": 12,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Monokai",
+  "workbench.editor.enablePreview": false,
+  "worketers.iconTheme": "material-icon-theme",
+
+  "server.settings.port": 5501,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.useTabs": true,
+  "prettier.tabWidth": 4,
+  "javascript.autoClosingTags": true,
+  "javascript.suggestionActions.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+
+
+
+  "editor.foldingHighlight": true,
+
+  "editor.guides.bracketPairs": true,
+
+
+  "emmet.includeLanguages": {
+    "django-html": "html",
+    "javascript": "html",
+    "jinja-html": "html"
+  },
+  "editor.minimap.enabled": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+
+  "explorer.confirmDelete": false,
+
+  "files.associations": {
+    "**/*.txt": "pip-requirements",
+    "**/templates/*": "django-txt",
+    "**/templates/*.html": "django-html",
+    "*.html": "html",
+    "*.js": "javascript"
+  },
+
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "files.encoding": "utf8",
+
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "editor.rulers": [80],
+  "editor.lineNumbers": "on",
+  "editor.cursorStyle": "line",
+  "editor.quickSuggestions": {
+    "strings": true,
+    "comments": false,
+    "other": true
+  },
+
+
+
 }

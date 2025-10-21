@@ -1157,3 +1157,12 @@
 2025-10-18 22:40:32,373 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
 2025-10-18 22:40:37,006 | INFO | "GET /project-flow/projects/3/ HTTP/1.1" 200 2898
 2025-10-18 22:46:17,375 | ERROR | "GET /project-flow/projects/3/ HTTP/1.1" 500 150047
+2025-10-21 18:03:55,039 | INFO | Watching for file changes with StatReloader
+2025-10-21 18:04:02,380 | INFO | "GET / HTTP/1.1" 200 2134
+2025-10-21 18:04:02,908 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-10-21 18:05:31,022 | INFO | "GET /register-member-view HTTP/1.1" 200 3337
+2025-10-21 18:06:07,876 | INFO | "POST /register-member/ HTTP/1.1" 200 3444
+2025-10-21 19:46:39,893 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\users\forms.py changed, reloading.
+2025-10-21 19:46:43,755 | INFO | Watching for file changes with StatReloader
+2025-10-21 19:47:19,782 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\users\views.py changed, reloading.
+2025-10-21 19:47:21,315 | INFO | Watching for file changes with StatReloader

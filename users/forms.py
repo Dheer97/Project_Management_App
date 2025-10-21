@@ -10,7 +10,7 @@ class RegisterMemberForm (UserCreationForm):
     class Meta:
         model=User
         # fields=['email','username']
-        fields = ['username', 'email', 'role', 'password1', 'password2']
+        fields = ['username', 'email',  'password1', 'password2']
 
 
     def clean_email(self):
