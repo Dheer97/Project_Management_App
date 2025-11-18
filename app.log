@@ -1169,3 +1169,25 @@
 2025-10-21 19:48:24,608 | INFO | "POST /register-member/ HTTP/1.1" 302 0
 2025-10-21 19:48:24,678 | INFO | "GET / HTTP/1.1" 200 2273
 2025-11-18 22:09:27,338 | INFO | Watching for file changes with StatReloader
+2025-11-18 22:09:31,927 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:09:32,524 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-11-18 22:10:35,625 | INFO | "POST /login/ HTTP/1.1" 302 0
+2025-11-18 22:10:36,122 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 141762
+2025-11-18 22:12:54,705 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 144684
+2025-11-18 22:12:56,455 | ERROR | "GET /project-flow/dashboard/ HTTP/1.1" 500 144684
+2025-11-18 22:13:46,160 | INFO | "GET /project-flow/dashboard/ HTTP/1.1" 200 2755
+2025-11-18 22:13:53,318 | INFO | "GET /project-flow/projects/3/edit/ HTTP/1.1" 200 5832
+2025-11-18 22:14:00,495 | INFO | "GET /project-flow/projects/3/edit/ HTTP/1.1" 200 5832
+2025-11-18 22:19:33,342 | INFO | "GET /project-flow/projects/3/edit/ HTTP/1.1" 200 5832
+2025-11-18 22:20:55,829 | INFO | "GET /project-flow/projects/3/edit/ HTTP/1.1" 200 5832
+2025-11-18 22:20:59,392 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:22:01,302 | INFO | "GET /project-flow/projects/3/edit/ HTTP/1.1" 200 5832
+2025-11-18 22:22:01,410 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:22:06,577 | INFO | "GET /project-flow/projects/3/edit/ HTTP/1.1" 200 5832
+2025-11-18 22:22:06,652 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:22:31,088 | INFO | Watching for file changes with StatReloader
+2025-11-18 22:22:42,188 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:22:42,395 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-11-18 22:22:46,184 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:27:41,663 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_management_app\settings.py changed, reloading.
+2025-11-18 22:32:10,143 | INFO | Watching for file changes with StatReloader
