@@ -1191,3 +1191,29 @@
 2025-11-18 22:22:46,184 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
 2025-11-18 22:27:41,663 | INFO | D:\Projects\Python_Projects\ProjectManagementApp\project_management_app\project_management_app\settings.py changed, reloading.
 2025-11-18 22:32:10,143 | INFO | Watching for file changes with StatReloader
+2025-11-18 22:32:14,007 | INFO | "GET / HTTP/1.1" 200 2282
+2025-11-18 22:32:21,811 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:21,935 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:32:27,136 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:27,253 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:32:27,315 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-11-18 22:32:27,608 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:27,709 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:32:27,902 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-11-18 22:32:27,905 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:28,094 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:32:28,108 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:28,204 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:32:28,243 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:28,343 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:32:28,373 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:28,464 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:32:28,620 | WARNING | "GET /favicon.ico HTTP/1.1" 404 3614
+2025-11-18 22:32:39,475 | INFO | "GET / HTTP/1.1" 200 2134
+2025-11-18 22:32:42,365 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:34:09,035 | INFO | "GET / HTTP/1.1" 200 2280
+2025-11-18 22:34:09,127 | WARNING | "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3725
+2025-11-18 22:34:09,275 | INFO | "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 80663
+2025-11-18 22:34:09,276 | INFO | "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232948
+2025-11-18 22:34:09,304 | WARNING | "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1904
+2025-11-18 22:34:09,333 | WARNING | "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1889
